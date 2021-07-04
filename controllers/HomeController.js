@@ -47,7 +47,10 @@ class HomeController{
             const user = { name,email,password }
 
             await User.new(user)
-            res.json({ user: { name,email } })
+            res.json({
+                status: "Created !",
+                "Next Step": "http://localhost/login"
+            })
             
 
         } catch(err){ console.error(err) }
