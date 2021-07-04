@@ -3,7 +3,7 @@ var knex = require('knex')({
     connection: {
       host : '127.0.0.1',
       user : 'root',
-      password : 'Celso_bixa2014',
+      password : '*******',
       database : 'user_api'
     }
 });
